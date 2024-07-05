@@ -1,0 +1,58 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  margin-top: auto;
+  background-color: #44257d;
+}
+header h1 {
+  font-size: 24px;
+  color: #ffffff;
+}
+header h3 {
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.second-line li {
+  font-size: 16px;
+  color: #ffffff;
+  list-style: none;
+}
+
+.card {
+  border-radius: 0px;
+}
+
+.card .column-one > span,
+.card .column-two > span {
+  font-size: 12px;
+  color: #808080;
+}
+
+.card img{
+    margin-right: 5px;
+}
+
+.card .column-one > li,
+.card .column-two > li {
+  font-size: 13px;
+}
+.card .column-one > h6 {
+  font-size: 13px;
+}
+
+.card h6 {
+  font-size: 14px;
+}
+
+
+@media (min-width: 650px) {
+    .container-md{
+        width: 50%;
+    }
+}
