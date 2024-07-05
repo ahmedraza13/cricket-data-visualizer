@@ -91,11 +91,12 @@ const cricketMatchData = [
   },
 ];
 
-let cards = document.querySelector(".row");
+let cards = document.querySelector(".row.g-0");
 
 cricketMatchData.map((card, index) => {
-  return (cards.innerHTML += ` <div class="col-lg-6 col-12">
-          <div class="card h-100">
+  return (
+        cards.innerHTML += ` <div class="col-lg-6 col-12">
+          <div class="card">
         <div class="card-sub d-flex justify-content-around">
         <div class="column-one d-flex flex-column gap-4 mt-4 mb-4">
           <span>${card.staging.groupStage}</span>
@@ -113,3 +114,14 @@ cricketMatchData.map((card, index) => {
         </div>
       </div>`);
 });
+
+
+
+
+
+
+
+
+   
+  
+       
